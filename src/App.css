@@ -24,3 +24,17 @@ li {
   margin: 5px 0;
   border-radius: 5px;
 }
+
+.filters {
+  margin: 20px 0;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.filters label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
