@@ -1,8 +1,24 @@
-# React + Vite
+# TodoList React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Une application de liste de tâches développée avec React et Vite, démontrant différentes approches de rendu conditionnel en React.
 
-Currently, two official plugins are available:
+## Fonctionnalités
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Affichage de la date actuelle
+- Liste de tâches avec statut (complété/non complété)
+- Trois implémentations différentes du même composant utilisant :
+  - Conditions IF classiques
+  - Opérateur ternaire
+  - Opérateur logique &&
+
+
+## Installation
+
+1. Clonez le repository
+git clone
+
+2. Installez les dépendances
+npm install
+
+3. Lancez le serveur de développement
+npm run dev
